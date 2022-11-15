@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "lib": ["ESNext"],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "target": "esnext",
+
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+
+    // "bun-types" is the important part
+    "types": ["bun-types"]
+  },
+  "include": ["./src/**/*.ts"]
+}
